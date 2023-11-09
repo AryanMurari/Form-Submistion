@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Form Submission</title>
-    <script src="script.js"></script>
+    <title>Submit Form</title>
 </head>
 <body>
-    <form id="myForm">
-        First Name: <input type="text" name="firstName"><br>
-        Last Name: <input type="text" name="lastName"><br>
+    <form action="https://7lf6k71153.execute-api.ap-south-1.amazonaws.com/Ankit" method="post">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name"><br><br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name"><br><br>
         <input type="submit" value="Submit">
     </form>
 </body>
