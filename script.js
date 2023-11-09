@@ -1,5 +1,4 @@
-window.onload=function(){
-    document.getElementById('myForm').addEventListener('submit', function(event) {
+document.getElementById('myForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
     var firstName = document.getElementsByName('firstName')[0].value;
@@ -25,4 +24,3 @@ window.onload=function(){
         console.error('Error:', error);
     });
 });
-}
