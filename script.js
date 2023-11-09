@@ -9,7 +9,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         lastName: lastName
     };
 
-    fetch('https://pkgedb89wj.execute-api.us-east-1.amazonaws.com/home', {
+    fetch('https://gsq4n50sg0.execute-api.ap-south-1.amazonaws.com/home', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
